@@ -3,9 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>item Details</title>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
 </head>
 <body>
-    <h1> item details</h1>
+
+      <nav class="navbar navbar-expand-lg sticky-top bg-primary text-white">
+      <section class="container my-2 d-flex">
+
+        <div>
+        <a href="#" class="navbar-brand fw-bold text-white">
+          <img
+            src="./img/logo.png"
+            alt="logo"
+            width="30 "
+            height="30"
+          />
+          Sabina Photography
+        </a>
+  </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+
+        <section class=" collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="nav-links d-flex text-white gap-3 my-3 justify-content-center align-items-center ">
+                <li>
+                    <a class="text-white text-decoration-none hover" href="./index.html">Home</a>
+                </li>
+               
+                <li>
+                    <a class="text-white text-decoration-none hover" href="./vendor_gallery.html">Gallery</a>
+                </li>
+                 <li>
+                    <a class="text-white text-decoration-none hover" href="./vendor_management.html">Vendor</a>
+                </li>
+                 <li>
+                    <a class="text-white text-decoration-none hover" href="./checkout.html"> Cart </a>
+                </li>
+            </ul>
+            
+             <div class="actions d-flex" >
+          <form action="" class="mx-3 " role="search">
+            <div class="input-group m-0">
+              <input
+                type="search"
+                class="form-control rounded-start-pill"
+                placeholder="search"
+                aria-label="search"
+              />
+              <button
+                class="btn btn-outline-light rounded-end-circle bg-white"
+                type="submit"
+              >
+                <i class="fa fa-search text-danger"></i>
+              </button>
+            </div>
+          </form>
+
+          <!-- <a href="checkout.html" class=" text-white position-relative">
+            <i class="fa fa-shopping-cart fs-2"></i>
+            <span class=" position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">2</span>
+          </a>
+
+          <button class="btn btn-outline-light bg-transparent text-white px-10 mx-4"> Login </button> -->
+          </div>
+        </section>
+      </section>
+    </nav>
+    
+
+    
+<div class="container mt-5">
+    <div class="row">
+        <!-- Product Images -->
+        <div class="col-md-6 mb-4">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxfHxoZWFkcGhvbmV8ZW58MHwwfHx8MTcyMTMwMzY5MHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Product" class="img-fluid rounded mb-3 product-image" id="mainImage">
+        </div>
+
+        <!-- Product Details -->
+        <div class="col-md-6">
+            <h2 class="mb-3">Premium Wireless Headphones</h2>
+            <p class="text-muted mb-4">SKU: WH1000XM4</p>
+            <div class="mb-3">
+                <span class="h4 me-2">$349.99</span>
+                <span class="text-muted"><s>$399.99</s></span>
+            </div>
+            <div class="mb-3">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
+                <span class="ms-2">4.5 (120 reviews)</span>
+            </div>
+            <p class="mb-4">Experience premium sound quality and industry-leading noise cancellation with these wireless
+                headphones. Perfect for music lovers and frequent travelers.</p>
+            <div class="mb-4">
+                <label for="quantity" class="form-label">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" value="1" min="1" style="width: 80px;">
+            </div>
+            <button class="btn btn-primary btn-lg mb-3 me-2">
+                    <i class="bi bi-cart-plus"></i> Add to Cart
+                </button>
+            <button class="btn btn-outline-secondary btn-lg mb-3">
+                    <i class="bi bi-heart"></i> Add to Wishlist
+                </button>
+            <div class="mt-4">
+                <h5>Key Features:</h5>
+                <ul>
+                    <li>Industry-leading noise cancellation</li>
+                    <li>30-hour battery life</li>
+                    <li>Touch sensor controls</li>
+                    <li>Speak-to-chat technology</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+     <footer class="m-10 py-4 border-top border-light-subtle">
+      <div class="container small text-muted">
+        <div class="d-flex justify-content-between">
+          <span> &copy; 2025 Sabin Photography. All Right Reserved by @sabina</span>
+          <span>  </span>
+        </div>
+      </div>
+     </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>  </body>
+
+
 </body>
 </html>
