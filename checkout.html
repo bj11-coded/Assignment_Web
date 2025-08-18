@@ -23,60 +23,83 @@
 
 
       <!-- navigation  -->
-    <nav class="navbar navbar-expand-lg sticky-top bg-primary text-white">
+     <nav class="navbar navbar-expand-lg sticky-top bg-primary text-white">
       <section class="container my-2 d-flex">
-
         <div>
-        <a href="#" class="navbar-brand fw-bold text-white">
-          <img
-            src="./img/logo.png"
-            alt="logo"
-            width="30 "
-            height="30"
-          />
-          Sabina Photography
-        </a>
-  </div>
+          <a href="./index.html" class="navbar-brand fw-bold text-white">
+            <img src="./img/logo.png" alt="logo" width="30 " height="30" />
+            Sabina Photography
+          </a>
+        </div>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
 
-        
-
-        <section class=" collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-            <ul class="nav-links d-flex text-white gap-3 my-3 justify-content-center align-items-center ">
-                <li>
-                    <a class="text-white text-decoration-none hover" href="#">Home</a>
-                </li>
-               
-                <li>
-                    <a class="text-white text-decoration-none hover" href="./vendor_gallery.html">Gallery</a>
-                </li>
-                 <li>
-                    <a class="text-white text-decoration-none hover" href="./checkout.html"> Cart </a>
-                </li>
-            </ul>
-            
-             <div class="actions d-flex" >
-          <form action="" class="mx-3 " role="search">
-            <div class="input-group m-0">
-              <input
-                type="search"
-                class="form-control rounded-start-pill"
-                placeholder="search"
-                aria-label="search"
-              />
-              <button
-                class="btn btn-outline-light rounded-end-circle bg-white"
-                type="submit"
+        <section
+          class="collapse navbar-collapse d-flex justify-content-end"
+          id="navbarNav"
+        >
+          <ul
+            class="nav-links d-flex text-white gap-3 my-3 justify-content-center align-items-center"
+          >
+            <li>
+              <a
+                class="text-white text-decoration-none hover"
+                href="./index.html"
+                >Home</a
               >
-                <i class="fa fa-search text-danger"></i>
-              </button>
-            </div>
-          </form>
+            </li>
 
-          <!-- <a href="checkout.html" class=" text-white position-relative">
+            <li>
+              <a
+                class="text-white text-decoration-none hover"
+                href="./vendor_gallery.html"
+                >Gallery</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-white text-decoration-none hover"
+                href="./vendor_management.html"
+                >Vendor</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-white text-decoration-none hover"
+                href="./checkout.html"
+              >
+                Cart
+              </a>
+            </li>
+          </ul>
+
+          <div class="actions d-flex">
+            <form action="" class="mx-3" role="search">
+              <div class="input-group m-0">
+                <input
+                  type="search"
+                  class="form-control rounded-start-pill"
+                  placeholder="search"
+                  aria-label="search"
+                />
+                <button
+                  class="btn btn-outline-light rounded-end-circle bg-white"
+                  type="submit"
+                >
+                  <i class="fa fa-search text-danger"></i>
+                </button>
+              </div>
+            </form>
+
+            <!-- <a href="checkout.html" class=" text-white position-relative">
             <i class="fa fa-shopping-cart fs-2"></i>
             <span class=" position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">2</span>
           </a>
@@ -97,49 +120,29 @@
                     </div>
                     <div class="card-body">
                         <div class="row fw-bold border-bottom pb-2 mb-3">
-                            <div class="col-5">Item</div>
-                            <div class="col-2">Format</div>
-                            <div class="col-2">Quantity</div>
+                            <div class="col-6">Item</div>
+                            <div class="col-3">Session</div>
                             <div class="col-3">Price</div>
                         </div>
                         <!-- Item 1 -->
                         <div class="row align-items-center py-2 border-bottom">
-                            <div class="col-5 d-flex align-items-center">
-                                <img src="https://i.imgur.com/2DsA49b.jpg" class="img-fluid rounded me-3" style="width:60px; height:60px; object-fit:cover;">
+                            <div class="col-6 d-flex align-items-center">
+                                <img src="./img/classic light.jpg" class="img-fluid rounded me-3" style="width:60px; height:60px; object-fit:cover;">
                                 <div>
-                                    <h6 class="mb-1">Thinking, Fast and Slow</h6>
-                                    <small class="text-muted">Daniel Kahneman</small>
+                                    <h6 class="mb-1">Classic Studio</h6>
+                                    <small class="text-muted">Potrait</small>
                                 </div>
                             </div>
-                            <div class="col-2">Digital</div>
-                            <div class="col-2 d-flex align-items-center">
+                            <div class="col-3 d-flex align-items-center">
                                 <span class="me-2">1</span>
                                 <div class="btn-group btn-group-sm" role="group">
                                     <button type="button" class="btn btn-outline-secondary">+</button>
                                     <button type="button" class="btn btn-outline-secondary">-</button>
                                 </div>
                             </div>
-                            <div class="col-3">$9.99</div>
+                            <div class="col-3">$10.99</div>
                         </div>
                         <!-- Item 2 -->
-                        <div class="row align-items-center py-2">
-                            <div class="col-5 d-flex align-items-center">
-                                <img src="https://i.imgur.com/Oj1iQUX.jpg" class="img-fluid rounded me-3" style="width:60px; height:60px; object-fit:cover;">
-                                <div>
-                                    <h6 class="mb-1">Homo Deus: A Brief History of Tomorrow</h6>
-                                    <small class="text-muted">Yuval Noah Harari</small>
-                                </div>
-                            </div>
-                            <div class="col-2">Paperback</div>
-                            <div class="col-2 d-flex align-items-center">
-                                <span class="me-2">1</span>
-                                <div class="btn-group btn-group-sm" role="group">
-                                    <button type="button" class="btn btn-outline-secondary">+</button>
-                                    <button type="button" class="btn btn-outline-secondary">-</button>
-                                </div>
-                            </div>
-                            <div class="col-3">$13.50</div>
-                        </div>
                     </div>
                 </div>
                 <!-- User Details -->
@@ -232,7 +235,7 @@
                 <div class="card-body">
                     <div class="d-flex justify-content-between mb-2">
                         <span>Subtotal</span>
-                        <span>$23.49</span>
+                        <span>$10.99</span>
                     </div>
                     <div class="d-flex justify-content-between mb-2">
                         <span>Shipping</span>
@@ -240,9 +243,9 @@
                     </div>
                     <div class="d-flex justify-content-between mb-3">
                         <span>Total (tax included)</span>
-                        <span class="fw-bold">$26.48</span>
+                        <span class="fw-bold">13.28</span>
                     </div>
-                    <button class="btn btn-primary w-100">Checkout <span class="fw-bold">$26.48</span></button>
+                    <button class="btn btn-primary w-100">Checkout <span class="fw-bold">$13.28</span></button>
                 </div>
             </div>
         </div>
